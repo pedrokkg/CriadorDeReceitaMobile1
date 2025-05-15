@@ -1,0 +1,43 @@
+{
+  "display_override": ["window-controls-overlay"], 
+  "protocol_handlers": [{"protocol":"mailto","url":"/newEmail?to=pedro.garrao@soulasalle.com.br"}], 
+  "name": "CriadorDeReceita",
+  "short_name": "CDR",
+  "start_url": "/teste-app/index.html",
+  "display": "standalone",
+  "description": "Aplicativo para criação e gerenciamento de receitas culinárias.",
+  "lang": "pt-BR",
+  "dir": "auto",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icons/icone.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icone.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/homepage.png",
+      "sizes": "2880x1800",
+      "type": "image/png",
+      "description": "Tela inicial do CriadorDeReceita"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "windows",
+      "url": "https://www.microsoft.com/store/apps/9NBLGGH4NNS1" 
+    }
+  ],
+  "prefer_related_applications": false
+}
